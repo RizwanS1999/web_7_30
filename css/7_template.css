@@ -34,4 +34,14 @@
 .menu li {
   color: red;
   display: inline;
+  /* border: 2px solid green; */
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 7px orange;
+}
+
+.menu li:hover {
+  box-shadow: 1px 1px 2px red;
+  /* padding: 20px; */
 }
