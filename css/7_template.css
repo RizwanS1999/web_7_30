@@ -1,0 +1,37 @@
+/* parallax layout */
+.app-section {
+  height: 450px;
+  border: 1px dashed green;
+}
+
+.header {
+  height: 100px;
+}
+
+.footer {
+  height: 100px;
+}
+
+.banner-one {
+  background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.banner-two {
+  background-image: url("./../assets/img/background2.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.banner-three {
+  background-image: url("./../assets/img/background3.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+/* Navbar */
+.menu li {
+  color: red;
+  display: inline;
+}
