@@ -45,3 +45,12 @@
   box-shadow: 1px 1px 2px red;
   /* padding: 20px; */
 }
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
